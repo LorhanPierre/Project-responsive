@@ -178,14 +178,14 @@ header img{
 
     color: aliceblue;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size:0.8vw;
+    font-size:0.5vw;
     text-align:justify;
     letter-spacing: 1px;
 }
 
 .img-idolo{
-     max-width:20vw;
-     max-height: 20vw;
+     max-width:15vw;
+     max-height: 15vw;
      position: relative;
      z-index: 99;
      grid-column-start: 1;
@@ -193,7 +193,6 @@ header img{
 }
 
 .card-idolo-r{
-    grid-column-start: 2;
     overflow: hidden;
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -243,7 +242,6 @@ header img{
 }
 
 .card-idolo-l{
-    grid-column-start: 3;
     overflow: hidden;
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -270,7 +268,7 @@ header img{
     grid-column-start: 1;
     grid-row-start: 1;
     align-content: center;
-    padding-left:4vw;
+    padding-left:2vw;
     color:aliceblue;
     height: 20vw;
 }
@@ -288,8 +286,34 @@ header img{
 }
 
 .cards-idolos{
-
   display:grid;
-  grid-template-columns: 0.09fr 3fr 3fr 0.09fr;
+  grid-template-columns: 0.09fr 3fr 3fr 3fr 0.09fr;
+  grid-template-rows: 1fr 1fr;
   gap:5vw;
+  width: 100%;
+}
+
+#dinamite{
+    grid-column-start: 2;
+    grid-row: 1;
+}
+#romario{
+    grid-column-start: 3;
+    grid-row: 1;
+}
+#vegetti{
+    grid-column-start: 4;
+    grid-row: 1;
+}
+#coutinho{
+    grid-column-start: 2;
+    grid-row: 2;
+}
+#edmundo{
+    grid-column-start: 3;
+    grid-row: 2;
+}
+#juninho{
+    grid-column-start: 4;
+    grid-row: 2;
 }
