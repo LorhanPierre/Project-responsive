@@ -1,0 +1,295 @@
+@import url('https://fonts.cdnfonts.com/css/long-shot');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 0.5fr;
+  background-image: url("/imagens/textura.png");
+
+}
+
+header img{
+  display: flex;
+  max-width: 4.5vw;
+  margin-left: 8vw;
+  align-self: center;
+}
+
+.logo{
+
+  display: flex;
+  position: relative;
+}
+
+.faixa{
+  width: 2vw;
+  height: 8vw;
+  background: rgb(24, 24, 24);
+  transform: skew(-35deg); /* Padrão */
+  z-index: -1;
+  position: relative;
+  margin-left: -3vw;
+}
+
+.vasco{
+
+  font-family: Long Shot;
+  font-size: 2.5vw;
+  align-self: center;
+  margin-top: 1vw;
+}
+
+.Menu{
+
+  display:flex;
+  align-items: center;
+}
+
+.menu{
+
+ display: flex;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ gap: 5vw;
+ list-style: none;
+ flex-direction: row;
+ font-size: 1.6vw;
+ border-color: black;
+ padding: 5px;
+}
+
+.btmenu{
+
+  border-radius: 20vw;
+  padding: 0.5vw;
+}
+
+.btmenu:hover{
+
+  text-decoration:underline;
+  color: rgb(0, 0, 0);
+  border-radius: 20vw;
+  padding: 0.5vw;
+  transition-duration: 0.4s;
+  transition-timing-function:ease;
+  transform: scale(1.2);
+  cursor:pointer;
+}
+
+
+/*FIM DO HEADER=============================================================*/
+
+.slogan{
+  display: flex;
+  background-image:url("/imagens/torcida.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:50vw;
+  position: relative;
+  color: white;
+}
+
+.slogan h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 6vw;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 8vw;
+}
+
+.slogan p{
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1vw;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15vw;
+  margin-left: 20vw;
+  border-radius:20vw;
+  border: 0.2vw solid;
+  width: 11.7vw;
+  padding: 1vw;
+   transition-duration: 0.5s;
+  transition-timing-function:ease;
+}
+
+.slogan p:hover{
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1vw;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15vw;
+  margin-left: 20vw;
+  border-radius:20vw;
+  border: 0.2vw solid;
+  width: 11.7vw;
+  padding: 1vw;
+  color: white;
+  border-color: white;
+  box-shadow:0px 1px 15px 5px rgba(255, 255, 255, 0.508) ;
+}
+
+.texto{
+  display: flex;
+  width: 70vw;
+  flex-direction: column;
+}
+
+.opacidade{
+
+  background-color: rgba(0, 0, 0, 0.508);
+  width:100%;
+  background: linear-gradient(90deg,rgba(0, 0, 0, 0.8) 0%, rgba(39, 39, 39, 0.5) 50%, rgba(237, 221, 83, 0) 100%);
+  height: 50vw;
+}
+
+/*Fim do Banner ===============================================================================================================*/
+
+.idolos{
+    background-color: rgba(28, 28, 28, 1);
+    padding-bottom: 10vw;
+    padding-top:10vw;
+}
+
+#titulo{
+    text-align: center;
+    padding-bottom: 8vw;
+}
+
+#titulo h1{
+    font-size: 8vw;
+    color:brown;
+    font-family: Long shot;
+    letter-spacing: 3px;
+}
+
+#titulo h2{
+    font-size:3.5vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.idolos{
+
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:0.8vw;
+    text-align:justify;
+    letter-spacing: 1px;
+}
+
+.img-idolo{
+     max-width:20vw;
+     max-height: 20vw;
+     position: relative;
+     z-index: 99;
+     grid-column-start: 1;
+     grid-row-start: 1;
+}
+
+.card-idolo-r{
+    grid-column-start: 2;
+    overflow: hidden;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: none;
+    border-radius: 2vw;
+    width:100%;
+    height:20vw;
+    margin-bottom:3vw;
+    box-shadow: -5px 5px 10px 2px  rgb(117, 117, 117);
+}
+
+.card-idolo-r h1{
+    font-size: 4vw;
+    color:brown;
+    font-family: Long shot;
+    letter-spacing: 3px;
+}
+.card-idolo-r h2{
+    font-size:1.8vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.informações{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    align-content: center;
+    padding-right:4vw;
+    color:aliceblue;
+    height: 20vw;
+}
+
+.faixa-cards{
+    width: 8vw;
+    height: 35vw;
+    background:aliceblue;
+    transform: skew(-35deg); /* Padrão */
+    z-index: 9;
+    position: relative;
+    margin-left: -20vw;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.imagem-card{
+    display:flex;
+    position: relative;
+}
+
+.card-idolo-l{
+    grid-column-start: 3;
+    overflow: hidden;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: none;
+    border-radius: 2vw;
+    width:100%;
+    height: 20vw;
+    margin-bottom:3vw;
+    box-shadow: -5px 5px 10px 2px  rgb(117, 117, 117);
+}
+
+.card-idolo-l h1{
+    font-size: 4vw;
+    color:brown;
+    font-family: Long shot;
+    letter-spacing: 3px;
+}
+.card-idolo-l h2{
+    font-size:1.8vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.informações-l{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    align-content: center;
+    padding-left:4vw;
+    color:aliceblue;
+    height: 20vw;
+}
+
+.faixa-cards-l{
+    width: 8vw;
+    height: 35vw;
+    background:aliceblue;
+    transform: skew(35deg); /* Padrão */
+    z-index: 9;
+    position: relative;
+    margin-left: -8vw;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.cards-idolos{
+
+  display:grid;
+  grid-template-columns: 0.09fr 3fr 3fr 0.09fr;
+  gap:5vw;
+}
