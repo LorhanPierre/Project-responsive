@@ -178,7 +178,7 @@ header img{
 
     color: aliceblue;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size:0.5vw;
+    font-size:0.6vw;
     text-align:justify;
     letter-spacing: 1px;
 }
@@ -225,13 +225,12 @@ header img{
 }
 
 .faixa-cards{
-    width: 8vw;
-    height: 35vw;
+    width: 5vw;
     background:aliceblue;
-    transform: skew(-35deg); /* Padrão */
+    transform: skew(35deg); /* Padrão */
     z-index: 9;
     position: relative;
-    margin-left: -20vw;
+    margin-left: -10vw;
     grid-column-start: 1;
     grid-row-start: 1;
 }
@@ -248,19 +247,19 @@ header img{
     background-color: none;
     border-radius: 2vw;
     width:100%;
-    height: 20vw;
+    height: 15vw;
     margin-bottom:3vw;
-    box-shadow: -5px 5px 10px 2px  rgb(117, 117, 117);
+    box-shadow: -0.1vw 0.1vw 0.8vw 0.1vw  rgb(117, 117, 117);
 }
 
 .card-idolo-l h1{
-    font-size: 4vw;
+    font-size: 3vw;
     color:brown;
     font-family: Long shot;
     letter-spacing: 3px;
 }
 .card-idolo-l h2{
-    font-size:1.8vw;
+    font-size:1.7vw;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -270,12 +269,12 @@ header img{
     align-content: center;
     padding-left:2vw;
     color:aliceblue;
-    height: 20vw;
+    height: 15vw;
 }
 
 .faixa-cards-l{
     width: 8vw;
-    height: 35vw;
+    height: 2%;
     background:aliceblue;
     transform: skew(35deg); /* Padrão */
     z-index: 9;
@@ -289,7 +288,7 @@ header img{
   display:grid;
   grid-template-columns: 0.09fr 3fr 3fr 3fr 0.09fr;
   grid-template-rows: 1fr 1fr;
-  gap:5vw;
+  gap: 3vw;
   width: 100%;
 }
 
